@@ -32,6 +32,7 @@ jobs:
         run: |
           cd e-card
           npm run build
+          ls -la dist  # 檢查構建輸出
 
       - name: Setup Pages
         uses: actions/configure-pages@v3
